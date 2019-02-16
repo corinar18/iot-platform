@@ -1,0 +1,50 @@
+<h1>Positions collection</h1>
+<h3>
+  Search the last known position for a label
+</h3>
+<br>
+<mat-form-field>
+  <mat-select [(ngModel)]="selectedLabel">
+    <mat-option *ngFor="let label of labels" [value]="label">
+      {{label}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+<button mat-raised *ngIf="selectedLabel!==undefined"
+        (click)="searchLastPosition(selectedLabel)">
+        Search
+</button>
+<div *ngIf="coordinate!==undefined">X: {{coordinate.x}}, Y: {{coordinate.y}}, Z: {{coordinate.z}}</div>
+
+<br>
+<h3>
+  Search all the objects positioned inside a box
+</h3>
+<div>
+  <p>Bottom-left corner - X</p>
+  <mat-form-field>
+    <input matInput [(ngModel)]="x1">
+  </mat-form-field>
+
+  <p>Bottom-left corner - Y</p>
+  <mat-form-field>
+    <input matInput [(ngModel)]="y1">
+  </mat-form-field>
+
+  <p>Upper-right corner - X</p>
+  <mat-form-field>
+    <input matInput [(ngModel)]="x2">
+  </mat-form-field>
+
+  <p>Upper-right corner - Y</p>
+  <mat-form-field>
+    <input matInput [(ngModel)]="y2">
+  </mat-form-field>
+</div>
+<button mat-raised *ngIf="x1!==undefined && x2!==undefined && y1!==undefined && y2!==undefined"
+        (click)="searchNearbyObjects(x1, y1, x2, y2)">
+        Search
+</button>
+<div *ngFor="let obj of nearbyObjects">
+  Object type: {{obj.type}}, object label: {{obj.label}}, object coordinates: {{obj.geoLocation.x}}, {{obj.geoLocation.y}}
+</div>

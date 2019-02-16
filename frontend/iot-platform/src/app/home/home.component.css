@@ -1,0 +1,13 @@
+.button-row {
+
+}
+
+.button-row .positions {
+  background-color: blanchedalmond;
+  color: brown;
+}
+
+.button-row .sensors {
+  background-color: cadetblue;
+  color: white;
+}

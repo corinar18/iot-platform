@@ -1,0 +1,1094 @@
+[
+  {
+    "_id": "5c17cab50f04c04be19ba138",
+    "coordinate": {
+      "x": "114.28",
+      "y": "27.91",
+      "z": "0.06"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/bottom_camera",
+    "label": "sunt",
+    "timestamp": 1653880262,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab54596de99f817bcb8",
+    "coordinate": {
+      "x": "187.15",
+      "y": "8.16",
+      "z": "0.5"
+    },
+    "node": "/pepper",
+    "topic": "/head_camera",
+    "label": "in",
+    "timestamp": 1764851737,
+    "type": "chair"
+  },
+  {
+    "_id": "5c17cab59fc68f44994c0df2",
+    "coordinate": {
+      "x": "487.04",
+      "y": 456,
+      "z": "1.24"
+    },
+    "node": "/pepper",
+    "topic": "/head_camera",
+    "label": "irure",
+    "timestamp": 1597724774,
+    "type": "human"
+  },
+  {
+    "_id": "5c17cab513520f253e1e2328",
+    "coordinate": {
+      "x": "450.31",
+      "y": "240.19",
+      "z": "1.61"
+    },
+    "node": "/rpi1",
+    "topic": "/head_camera",
+    "label": "reprehenderit",
+    "timestamp": 1682570861,
+    "type": "chair"
+  },
+  {
+    "_id": "5c17cab5005982bf672d1ee0",
+    "coordinate": {
+      "x": "73.56",
+      "y": "88.04",
+      "z": "1.12"
+    },
+    "node": "/rpi1",
+    "topic": "/bottom_camera",
+    "label": "ullamco",
+    "timestamp": 1899588962,
+    "type": "chair"
+  },
+  {
+    "_id": "5c17cab535281d6d95375e4a",
+    "coordinate": {
+      "x": "339.85",
+      "y": "203.98",
+      "z": "0.87"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/kinect_camera_2",
+    "label": "occaecat",
+    "timestamp": 1807720821,
+    "type": "human"
+  },
+  {
+    "_id": "5c17cab5570a7b8366811192",
+    "coordinate": {
+      "x": "448.98",
+      "y": "188.73",
+      "z": "0.93"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/kinect_camera_2",
+    "label": "reprehenderit",
+    "timestamp": 1755345393,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab5d7e1e813789811d5",
+    "coordinate": {
+      "x": "110.37",
+      "y": "368.53",
+      "z": "0.63"
+    },
+    "node": "/pepper",
+    "topic": "/bottom_camera",
+    "label": "id",
+    "timestamp": 1641747838,
+    "type": "chair"
+  },
+  {
+    "_id": "5c17cab523ca649af70e0f7b",
+    "coordinate": {
+      "x": "250.22",
+      "y": "218.38",
+      "z": "0.27"
+    },
+    "node": "/rpi1",
+    "topic": "/kinect_camera_2",
+    "label": "excepteur",
+    "timestamp": 1900760678,
+    "type": "human"
+  },
+  {
+    "_id": "5c17cab5811a5ab5c0a9013f",
+    "coordinate": {
+      "x": "108.57",
+      "y": "403.23",
+      "z": "0.33"
+    },
+    "node": "/rpi1",
+    "topic": "/kinect_camera_1",
+    "label": "mollit",
+    "timestamp": 1896084305,
+    "type": "human"
+  },
+  {
+    "_id": "5c17cab55efa5d2965a9c35a",
+    "coordinate": {
+      "x": "57.5",
+      "y": "368.78",
+      "z": 0
+    },
+    "node": "/pepper",
+    "topic": "/kinect_camera_1",
+    "label": "non",
+    "timestamp": 1817275315,
+    "type": "chair"
+  },
+  {
+    "_id": "5c17cab574d52976df644d55",
+    "coordinate": {
+      "x": "399.79",
+      "y": "95.43",
+      "z": "1.59"
+    },
+    "node": "/pepper",
+    "topic": "/bottom_camera",
+    "label": "eu",
+    "timestamp": 1894647965,
+    "type": "human"
+  },
+  {
+    "_id": "5c17cab5ff8eb2378e6f7075",
+    "coordinate": {
+      "x": "476.36",
+      "y": "215.23",
+      "z": "1.03"
+    },
+    "node": "/pepper",
+    "topic": "/kinect_camera_1",
+    "label": "veniam",
+    "timestamp": 1567645968,
+    "type": "chair"
+  },
+  {
+    "_id": "5c17cab510148a19f0fa9cc6",
+    "coordinate": {
+      "x": "281.85",
+      "y": "233.36",
+      "z": "0.21"
+    },
+    "node": "/rpi1",
+    "topic": "/kinect_camera_2",
+    "label": "voluptate",
+    "timestamp": 1546249990,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab5ed576f2c8029114f",
+    "coordinate": {
+      "x": "302.93",
+      "y": "261.6",
+      "z": "1.1"
+    },
+    "node": "/pepper",
+    "topic": "/head_camera",
+    "label": "nostrud",
+    "timestamp": 1633246110,
+    "type": "monitor"
+  },
+  {
+    "_id": "5c17cab5bef9f84530f46a9a",
+    "coordinate": {
+      "x": "319.4",
+      "y": "146.24",
+      "z": "0.79"
+    },
+    "node": "/pepper",
+    "topic": "/bottom_camera",
+    "label": "non",
+    "timestamp": 1841081054,
+    "type": "chair"
+  },
+  {
+    "_id": "5c17cab502334788fc948900",
+    "coordinate": {
+      "x": "430.16",
+      "y": 253,
+      "z": "1.63"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/kinect_camera_2",
+    "label": "reprehenderit",
+    "timestamp": 1673980985,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab58f63cc41c39f89ba",
+    "coordinate": {
+      "x": "127.95",
+      "y": "407.83",
+      "z": "1.46"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/head_camera",
+    "label": "veniam",
+    "timestamp": 1606139816,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab52ee92087d4d10d0c",
+    "coordinate": {
+      "x": "52.15",
+      "y": "341.35",
+      "z": "0.43"
+    },
+    "node": "/rpi1",
+    "topic": "/kinect_camera_1",
+    "label": "exercitation",
+    "timestamp": 1799374667,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab5234ffdfca8636a23",
+    "coordinate": {
+      "x": "429.98",
+      "y": "117.66",
+      "z": "0.36"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/kinect_camera_1",
+    "label": "tempor",
+    "timestamp": 1801852662,
+    "type": "monitor"
+  },
+  {
+    "_id": "5c17cab5bbe84722c4ef5f32",
+    "coordinate": {
+      "x": "86.21",
+      "y": "96.96",
+      "z": "1.23"
+    },
+    "node": "/pepper",
+    "topic": "/kinect_camera_2",
+    "label": "est",
+    "timestamp": 1866288104,
+    "type": "chair"
+  },
+  {
+    "_id": "5c17cab530c7dfee30cd7b6b",
+    "coordinate": {
+      "x": "278.83",
+      "y": "53.12",
+      "z": "1.51"
+    },
+    "node": "/pepper",
+    "topic": "/kinect_camera_1",
+    "label": "excepteur",
+    "timestamp": 1596427194,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab575e5effda57dcba2",
+    "coordinate": {
+      "x": "402.17",
+      "y": "249.32",
+      "z": "1.04"
+    },
+    "node": "/rpi1",
+    "topic": "/bottom_camera",
+    "label": "eu",
+    "timestamp": 1814020799,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab5e08f1fd035e8a332",
+    "coordinate": {
+      "x": "164.29",
+      "y": "303.88",
+      "z": "0.45"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/kinect_camera_1",
+    "label": "sit",
+    "timestamp": 1824114642,
+    "type": "human"
+  },
+  {
+    "_id": "5c17cab5e2f9fadcb5b56868",
+    "coordinate": {
+      "x": "423.78",
+      "y": "436.48",
+      "z": "1.35"
+    },
+    "node": "/rpi1",
+    "topic": "/kinect_camera_1",
+    "label": "aute",
+    "timestamp": 1760831058,
+    "type": "monitor"
+  },
+  {
+    "_id": "5c17cab587baf3b60e78c3dd",
+    "coordinate": {
+      "x": "412.73",
+      "y": "203.26",
+      "z": "0.36"
+    },
+    "node": "/pepper",
+    "topic": "/head_camera",
+    "label": "adipisicing",
+    "timestamp": 1638192337,
+    "type": "chair"
+  },
+  {
+    "_id": "5c17cab56864bd8a8bb8bf90",
+    "coordinate": {
+      "x": "375.49",
+      "y": "304.22",
+      "z": "0.21"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/head_camera",
+    "label": "quis",
+    "timestamp": 1708836531,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab501cc225f053c0a32",
+    "coordinate": {
+      "x": "193.29",
+      "y": "4.33",
+      "z": "1.94"
+    },
+    "node": "/rpi1",
+    "topic": "/head_camera",
+    "label": "sunt",
+    "timestamp": 1577208072,
+    "type": "monitor"
+  },
+  {
+    "_id": "5c17cab586ed618dc6b7583d",
+    "coordinate": {
+      "x": "432.51",
+      "y": "455.85",
+      "z": "0.57"
+    },
+    "node": "/rpi1",
+    "topic": "/kinect_camera_2",
+    "label": "qui",
+    "timestamp": 1742021363,
+    "type": "human"
+  },
+  {
+    "_id": "5c17cab55d206199aa3ff780",
+    "coordinate": {
+      "x": "350.1",
+      "y": "48.57",
+      "z": "0.49"
+    },
+    "node": "/rpi1",
+    "topic": "/kinect_camera_1",
+    "label": "eu",
+    "timestamp": 1567700650,
+    "type": "human"
+  },
+  {
+    "_id": "5c17cab50880ec266fe5b028",
+    "coordinate": {
+      "x": "30.55",
+      "y": "3.17",
+      "z": "0.06"
+    },
+    "node": "/rpi1",
+    "topic": "/kinect_camera_2",
+    "label": "anim",
+    "timestamp": 1573809773,
+    "type": "monitor"
+  },
+  {
+    "_id": "5c17cab52343974487a442a6",
+    "coordinate": {
+      "x": "133.17",
+      "y": "242.99",
+      "z": "1.88"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/head_camera",
+    "label": "nostrud",
+    "timestamp": 1856014728,
+    "type": "chair"
+  },
+  {
+    "_id": "5c17cab575d0a225d5f90369",
+    "coordinate": {
+      "x": "37.3",
+      "y": "216.17",
+      "z": "0.54"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/kinect_camera_1",
+    "label": "Lorem",
+    "timestamp": 1697156409,
+    "type": "human"
+  },
+  {
+    "_id": "5c17cab57b2b32063b1f993b",
+    "coordinate": {
+      "x": "131.65",
+      "y": "450.22",
+      "z": "0.54"
+    },
+    "node": "/pepper",
+    "topic": "/head_camera",
+    "label": "ipsum",
+    "timestamp": 1804925363,
+    "type": "chair"
+  },
+  {
+    "_id": "5c17cab5ba23f045a14a8ef7",
+    "coordinate": {
+      "x": "12.83",
+      "y": "41.94",
+      "z": "0.49"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/head_camera",
+    "label": "tempor",
+    "timestamp": 1718741148,
+    "type": "chair"
+  },
+  {
+    "_id": "5c17cab584e3d5e08466e617",
+    "coordinate": {
+      "x": "116.59",
+      "y": "107.33",
+      "z": "1.13"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/bottom_camera",
+    "label": "cupidatat",
+    "timestamp": 1548026378,
+    "type": "human"
+  },
+  {
+    "_id": "5c17cab597f71c8989129587",
+    "coordinate": {
+      "x": "440.41",
+      "y": "242.72",
+      "z": "0.2"
+    },
+    "node": "/rpi1",
+    "topic": "/bottom_camera",
+    "label": "amet",
+    "timestamp": 1551050107,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab512b53e2e9d83ad83",
+    "coordinate": {
+      "x": "9.56",
+      "y": "368.01",
+      "z": "0.29"
+    },
+    "node": "/pepper",
+    "topic": "/kinect_camera_1",
+    "label": "laborum",
+    "timestamp": 1724009627,
+    "type": "monitor"
+  },
+  {
+    "_id": "5c17cab500f0ed655ae725f0",
+    "coordinate": {
+      "x": "16.49",
+      "y": "285.86",
+      "z": "1.01"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/kinect_camera_1",
+    "label": "id",
+    "timestamp": 1764291162,
+    "type": "monitor"
+  },
+  {
+    "_id": "5c17cab519ea81fbf22f3a6e",
+    "coordinate": {
+      "x": "300.84",
+      "y": "271.25",
+      "z": "0.17"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/kinect_camera_2",
+    "label": "reprehenderit",
+    "timestamp": 1603565705,
+    "type": "chair"
+  },
+  {
+    "_id": "5c17cab59d8e425624fa3449",
+    "coordinate": {
+      "x": "413.51",
+      "y": "268.22",
+      "z": "1.78"
+    },
+    "node": "/pepper",
+    "topic": "/bottom_camera",
+    "label": "duis",
+    "timestamp": 1820125988,
+    "type": "human"
+  },
+  {
+    "_id": "5c17cab59c19a936bf0c9945",
+    "coordinate": {
+      "x": "35.39",
+      "y": "80.4",
+      "z": "0.82"
+    },
+    "node": "/pepper",
+    "topic": "/kinect_camera_1",
+    "label": "incididunt",
+    "timestamp": 1613173510,
+    "type": "monitor"
+  },
+  {
+    "_id": "5c17cab5505c66b1a0d966c1",
+    "coordinate": {
+      "x": "68.01",
+      "y": "455.17",
+      "z": "0.84"
+    },
+    "node": "/pepper",
+    "topic": "/kinect_camera_2",
+    "label": "consequat",
+    "timestamp": 1814130291,
+    "type": "chair"
+  },
+  {
+    "_id": "5c17cab5ee27c819c832dcd1",
+    "coordinate": {
+      "x": "314.95",
+      "y": "367.72",
+      "z": "0.02"
+    },
+    "node": "/pepper",
+    "topic": "/kinect_camera_1",
+    "label": "dolor",
+    "timestamp": 1698229468,
+    "type": "chair"
+  },
+  {
+    "_id": "5c17cab5d566bce3f44b8a57",
+    "coordinate": {
+      "x": "159.62",
+      "y": "148.33",
+      "z": "1.97"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/kinect_camera_1",
+    "label": "duis",
+    "timestamp": 1778153263,
+    "type": "monitor"
+  },
+  {
+    "_id": "5c17cab5b18692d68c790237",
+    "coordinate": {
+      "x": "291.87",
+      "y": "12.72",
+      "z": "0.6"
+    },
+    "node": "/rpi1",
+    "topic": "/kinect_camera_2",
+    "label": "esse",
+    "timestamp": 1559003087,
+    "type": "chair"
+  },
+  {
+    "_id": "5c17cab5753e2761762a639d",
+    "coordinate": {
+      "x": "480.35",
+      "y": "433.91",
+      "z": "1.68"
+    },
+    "node": "/rpi1",
+    "topic": "/kinect_camera_2",
+    "label": "deserunt",
+    "timestamp": 1806697998,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab5596f970926f6c006",
+    "coordinate": {
+      "x": "440.92",
+      "y": "115.46",
+      "z": "0.82"
+    },
+    "node": "/rpi1",
+    "topic": "/kinect_camera_1",
+    "label": "minim",
+    "timestamp": 1663783335,
+    "type": "monitor"
+  },
+  {
+    "_id": "5c17cab595502c6c541f9e83",
+    "coordinate": {
+      "x": "0.89",
+      "y": "311.96",
+      "z": "1.11"
+    },
+    "node": "/pepper",
+    "topic": "/head_camera",
+    "label": "id",
+    "timestamp": 1871430780,
+    "type": "monitor"
+  },
+  {
+    "_id": "5c17cab527d6a0263aadfadd",
+    "coordinate": {
+      "x": "16.05",
+      "y": "341.51",
+      "z": "1.95"
+    },
+    "node": "/rpi1",
+    "topic": "/kinect_camera_1",
+    "label": "amet",
+    "timestamp": 1816365674,
+    "type": "monitor"
+  },
+  {
+    "_id": "5c17cab57f75554c87945fe2",
+    "coordinate": {
+      "x": "140.37",
+      "y": "299.97",
+      "z": "0.34"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/head_camera",
+    "label": "reprehenderit",
+    "timestamp": 1576911660,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab5343e64a962522b26",
+    "coordinate": {
+      "x": "476.38",
+      "y": "345.71",
+      "z": "0.2"
+    },
+    "node": "/pepper",
+    "topic": "/head_camera",
+    "label": "exercitation",
+    "timestamp": 1873630577,
+    "type": "chair"
+  },
+  {
+    "_id": "5c17cab5ab92121eda3e5698",
+    "coordinate": {
+      "x": "475.27",
+      "y": "190.88",
+      "z": "1.85"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/kinect_camera_2",
+    "label": "quis",
+    "timestamp": 1799413354,
+    "type": "human"
+  },
+  {
+    "_id": "5c17cab5b2336d5ff54dcac9",
+    "coordinate": {
+      "x": "42.25",
+      "y": "415.58",
+      "z": "1.62"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/head_camera",
+    "label": "deserunt",
+    "timestamp": 1742711518,
+    "type": "monitor"
+  },
+  {
+    "_id": "5c17cab5e54c48841a5b8844",
+    "coordinate": {
+      "x": "432.58",
+      "y": "498.33",
+      "z": "1.6"
+    },
+    "node": "/pepper",
+    "topic": "/head_camera",
+    "label": "irure",
+    "timestamp": 1704640754,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab5f3ce62ca6024d052",
+    "coordinate": {
+      "x": "207.87",
+      "y": "450.54",
+      "z": "1.75"
+    },
+    "node": "/pepper",
+    "topic": "/head_camera",
+    "label": "eu",
+    "timestamp": 1771585717,
+    "type": "monitor"
+  },
+  {
+    "_id": "5c17cab5ff160e0b7c4e1738",
+    "coordinate": {
+      "x": "140.96",
+      "y": "445.12",
+      "z": "1.51"
+    },
+    "node": "/pepper",
+    "topic": "/kinect_camera_2",
+    "label": "deserunt",
+    "timestamp": 1777534702,
+    "type": "human"
+  },
+  {
+    "_id": "5c17cab542f9f0836c79ac56",
+    "coordinate": {
+      "x": "57.78",
+      "y": "328.56",
+      "z": "0.6"
+    },
+    "node": "/pepper",
+    "topic": "/head_camera",
+    "label": "aliqua",
+    "timestamp": 1889258145,
+    "type": "human"
+  },
+  {
+    "_id": "5c17cab5e03e9e04b2a3117d",
+    "coordinate": {
+      "x": "160.11",
+      "y": "254.79",
+      "z": "0.23"
+    },
+    "node": "/rpi1",
+    "topic": "/head_camera",
+    "label": "est",
+    "timestamp": 1633380509,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab504284eb48dc5b4f3",
+    "coordinate": {
+      "x": "490.88",
+      "y": "27.52",
+      "z": "0.86"
+    },
+    "node": "/pepper",
+    "topic": "/bottom_camera",
+    "label": "irure",
+    "timestamp": 1575103270,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab538a6ca07abea289f",
+    "coordinate": {
+      "x": "427.12",
+      "y": "387.77",
+      "z": "0.71"
+    },
+    "node": "/rpi1",
+    "topic": "/head_camera",
+    "label": "id",
+    "timestamp": 1589563224,
+    "type": "monitor"
+  },
+  {
+    "_id": "5c17cab5f8face1f5aabf6e4",
+    "coordinate": {
+      "x": "122.96",
+      "y": "398.92",
+      "z": "1.29"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/bottom_camera",
+    "label": "Lorem",
+    "timestamp": 1771197117,
+    "type": "human"
+  },
+  {
+    "_id": "5c17cab5b2a39104906a3a6d",
+    "coordinate": {
+      "x": "214.24",
+      "y": "308.41",
+      "z": "0.28"
+    },
+    "node": "/rpi1",
+    "topic": "/head_camera",
+    "label": "proident",
+    "timestamp": 1881089031,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab55e42f52c78d57512",
+    "coordinate": {
+      "x": "116.87",
+      "y": "450.76",
+      "z": "1.58"
+    },
+    "node": "/pepper",
+    "topic": "/kinect_camera_1",
+    "label": "ex",
+    "timestamp": 1810840089,
+    "type": "human"
+  },
+  {
+    "_id": "5c17cab51acab864ef2f5233",
+    "coordinate": {
+      "x": "345.32",
+      "y": "6.93",
+      "z": "1.38"
+    },
+    "node": "/pepper",
+    "topic": "/bottom_camera",
+    "label": "laboris",
+    "timestamp": 1800807840,
+    "type": "monitor"
+  },
+  {
+    "_id": "5c17cab5fcc5f99b595186ac",
+    "coordinate": {
+      "x": "63.85",
+      "y": "204.64",
+      "z": "0.54"
+    },
+    "node": "/pepper",
+    "topic": "/head_camera",
+    "label": "consectetur",
+    "timestamp": 1879387836,
+    "type": "chair"
+  },
+  {
+    "_id": "5c17cab5b65c61d9d127a15b",
+    "coordinate": {
+      "x": "90.86",
+      "y": "138.1",
+      "z": "1.31"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/kinect_camera_1",
+    "label": "eu",
+    "timestamp": 1620401686,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab525c90d5d58d9f444",
+    "coordinate": {
+      "x": "224.66",
+      "y": "261.36",
+      "z": "0.78"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/kinect_camera_1",
+    "label": "ut",
+    "timestamp": 1648478212,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab5ef6374e06270bd54",
+    "coordinate": {
+      "x": "168.21",
+      "y": "369.72",
+      "z": "1.09"
+    },
+    "node": "/rpi1",
+    "topic": "/kinect_camera_1",
+    "label": "incididunt",
+    "timestamp": 1888268302,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab579e44b6c0f58de4c",
+    "coordinate": {
+      "x": "107.01",
+      "y": "176.03",
+      "z": "0.51"
+    },
+    "node": "/rpi1",
+    "topic": "/head_camera",
+    "label": "elit",
+    "timestamp": 1598429273,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab5dd33950ea0ab3347",
+    "coordinate": {
+      "x": "9.55",
+      "y": "473.94",
+      "z": "0.04"
+    },
+    "node": "/rpi1",
+    "topic": "/bottom_camera",
+    "label": "et",
+    "timestamp": 1770893296,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab5b3a398f985974c61",
+    "coordinate": {
+      "x": "80.51",
+      "y": "260.2",
+      "z": "0.97"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/head_camera",
+    "label": "occaecat",
+    "timestamp": 1776058840,
+    "type": "chair"
+  },
+  {
+    "_id": "5c17cab5087b27714f017c34",
+    "coordinate": {
+      "x": "106.95",
+      "y": "208.19",
+      "z": "1.77"
+    },
+    "node": "/rpi1",
+    "topic": "/kinect_camera_1",
+    "label": "tempor",
+    "timestamp": 1900852768,
+    "type": "chair"
+  },
+  {
+    "_id": "5c17cab51938791e450c4aad",
+    "coordinate": {
+      "x": "272.7",
+      "y": "253.08",
+      "z": "0.49"
+    },
+    "node": "/pepper",
+    "topic": "/kinect_camera_2",
+    "label": "anim",
+    "timestamp": 1769759442,
+    "type": "monitor"
+  },
+  {
+    "_id": "5c17cab514f9e27848be905b",
+    "coordinate": {
+      "x": 326,
+      "y": "419.98",
+      "z": "1.96"
+    },
+    "node": "/rpi1",
+    "topic": "/kinect_camera_1",
+    "label": "aliquip",
+    "timestamp": 1647619514,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab5a6117e18ec27d18b",
+    "coordinate": {
+      "x": "126.49",
+      "y": "470.16",
+      "z": "1.23"
+    },
+    "node": "/rpi1",
+    "topic": "/bottom_camera",
+    "label": "proident",
+    "timestamp": 1682482864,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab50d0ed8449f650229",
+    "coordinate": {
+      "x": "87.35",
+      "y": "380.02",
+      "z": "0.23"
+    },
+    "node": "/rpi1",
+    "topic": "/bottom_camera",
+    "label": "do",
+    "timestamp": 1611573164,
+    "type": "monitor"
+  },
+  {
+    "_id": "5c17cab5d9f0fec3b0a343db",
+    "coordinate": {
+      "x": "364.72",
+      "y": "387.94",
+      "z": "1.44"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/kinect_camera_2",
+    "label": "ut",
+    "timestamp": 1841960851,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab5683425ab5a5452c7",
+    "coordinate": {
+      "x": "134.59",
+      "y": "400.72",
+      "z": "1.07"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/kinect_camera_1",
+    "label": "nulla",
+    "timestamp": 1772729783,
+    "type": "chair"
+  },
+  {
+    "_id": "5c17cab5e73512057fd4b43b",
+    "coordinate": {
+      "x": "136.88",
+      "y": "222.41",
+      "z": "0.03"
+    },
+    "node": "/kinect_rpi",
+    "topic": "/head_camera",
+    "label": "tempor",
+    "timestamp": 1616493418,
+    "type": "monitor"
+  },
+  {
+    "_id": "5c17cab51598219c0cce2f4a",
+    "coordinate": {
+      "x": "400.32",
+      "y": "423.52",
+      "z": "0.3"
+    },
+    "node": "/rpi1",
+    "topic": "/kinect_camera_2",
+    "label": "qui",
+    "timestamp": 1802189914,
+    "type": "table"
+  },
+  {
+    "_id": "5c17cab5123108ff19fede18",
+    "coordinate": {
+      "x": "311.55",
+      "y": "171.63",
+      "z": "1.84"
+    },
+    "node": "/pepper",
+    "topic": "/bottom_camera",
+    "label": "anim",
+    "timestamp": 1709914798,
+    "type": "chair"
+  },
+  {
+    "_id": "5c17cab5755ec27fd6fd771f",
+    "coordinate": {
+      "x": "205.89",
+      "y": "54.3",
+      "z": "1.12"
+    },
+    "node": "/rpi1",
+    "topic": "/head_camera",
+    "label": "aliqua",
+    "timestamp": 1660306577,
+    "type": "chair"
+  },
+  {
+    "_id": "5c17cab56b54cb497c7066d9",
+    "coordinate": {
+      "x": "176.9",
+      "y": "230.51",
+      "z": "1.61"
+    },
+    "node": "/pepper",
+    "topic": "/bottom_camera",
+    "label": "fugiat",
+    "timestamp": 1761511585,
+    "type": "human"
+  }
+]

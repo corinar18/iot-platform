@@ -1,0 +1,667 @@
+[
+  {
+    "_id": "5c17ccdb3deb6bb10b31a4e4",
+    "node": "/rpi_pepper",
+    "event_type": "face_detection",
+    "topic": "/motion_sensor",
+    "timestamp": 1881522556
+  },
+  {
+    "_id": "5c17ccdb73bd70a3c45a2d8c",
+    "node": "/pepper",
+    "event_type": "room_enter",
+    "topic": "/door_sensor",
+    "timestamp": 1689252115
+  },
+  {
+    "_id": "5c17ccdb1eb1482b5685daab",
+    "node": "/rpi1",
+    "event_type": "room_enter",
+    "topic": "/kinect_camera_1",
+    "timestamp": 1769509068
+  },
+  {
+    "_id": "5c17ccdbe30889c25ac1c454",
+    "node": "/kinect_rpi",
+    "event_type": "activity_detection",
+    "topic": "/motion_sensor",
+    "timestamp": 1835354286
+  },
+  {
+    "_id": "5c17ccdbd75f09217277428f",
+    "node": "/rpi_pepper",
+    "event_type": "room_enter",
+    "topic": "/kinect_camera_1",
+    "timestamp": 1698254316
+  },
+  {
+    "_id": "5c17ccdbe9b157c846eed242",
+    "node": "/rpi1",
+    "event_type": "person_detection",
+    "topic": "/head_camera",
+    "timestamp": 1579461683
+  },
+  {
+    "_id": "5c17ccdbae7ee58edb148740",
+    "node": "/rpi_pepper",
+    "event_type": "room_enter",
+    "topic": "/kinect_camera_1",
+    "timestamp": 1692943919
+  },
+  {
+    "_id": "5c17ccdb6173d324161d224d",
+    "node": "/kinect_rpi",
+    "event_type": "motion_detect",
+    "topic": "/head_camera",
+    "timestamp": 1552696941
+  },
+  {
+    "_id": "5c17ccdb17ccf1bdfe052bf9",
+    "node": "/kinect_rpi",
+    "event_type": "activity_detection",
+    "topic": "/motion_sensor",
+    "timestamp": 1758804708
+  },
+  {
+    "_id": "5c17ccdb22fa639c79220047",
+    "node": "/rpi1",
+    "event_type": "motion_detect",
+    "topic": "/door_sensor",
+    "timestamp": 1666853208
+  },
+  {
+    "_id": "5c17ccdbbe43f4793a2ea63a",
+    "node": "/kinect_rpi",
+    "event_type": "person_detection",
+    "topic": "/bottom_camera",
+    "timestamp": 1739698214
+  },
+  {
+    "_id": "5c17ccdb7681aaee820aadbe",
+    "node": "/kinect_rpi",
+    "event_type": "activity_detection",
+    "topic": "/bottom_camera",
+    "timestamp": 1814954878
+  },
+  {
+    "_id": "5c17ccdb6d4764b9c1fb7e60",
+    "node": "/pepper",
+    "event_type": "room_enter",
+    "topic": "/head_camera",
+    "timestamp": 1604808876
+  },
+  {
+    "_id": "5c17ccdb54d486f2dc8e91f3",
+    "node": "/rpi1",
+    "event_type": "face_detection",
+    "topic": "/head_camera",
+    "timestamp": 1710450977
+  },
+  {
+    "_id": "5c17ccdbca58b20cad56282d",
+    "node": "/rpi_pepper",
+    "event_type": "room_enter",
+    "topic": "/bottom_camera",
+    "timestamp": 1868454659
+  },
+  {
+    "_id": "5c17ccdb9534ba80dde73d2e",
+    "node": "/kinect_rpi",
+    "event_type": "activity_detection",
+    "topic": "/kinect_camera_2",
+    "timestamp": 1804401112
+  },
+  {
+    "_id": "5c17ccdbb6d9ec024065599d",
+    "node": "/rpi1",
+    "event_type": "motion_detect",
+    "topic": "/head_camera",
+    "timestamp": 1736161822
+  },
+  {
+    "_id": "5c17ccdb5b4800ac2c62abad",
+    "node": "/kinect_rpi",
+    "event_type": "room_enter",
+    "topic": "/head_camera",
+    "timestamp": 1591460362
+  },
+  {
+    "_id": "5c17ccdbfa3054962efb7f65",
+    "node": "/rpi_pepper",
+    "event_type": "activity_detection",
+    "topic": "/kinect_camera_2",
+    "timestamp": 1868066343
+  },
+  {
+    "_id": "5c17ccdb65c742f27bcb34ff",
+    "node": "/rpi1",
+    "event_type": "person_detection",
+    "topic": "/door_sensor",
+    "timestamp": 1743851633
+  },
+  {
+    "_id": "5c17ccdb5248864fa479d393",
+    "node": "/pepper",
+    "event_type": "face_detection",
+    "topic": "/bottom_camera",
+    "timestamp": 1591739647
+  },
+  {
+    "_id": "5c17ccdb367a0a163ce1588a",
+    "node": "/kinect_rpi",
+    "event_type": "motion_detect",
+    "topic": "/kinect_camera_2",
+    "timestamp": 1888162709
+  },
+  {
+    "_id": "5c17ccdb259b27da789e9bc0",
+    "node": "/kinect_rpi",
+    "event_type": "room_enter",
+    "topic": "/kinect_camera_2",
+    "timestamp": 1547050169
+  },
+  {
+    "_id": "5c17ccdbc1c178a0fb0f13ab",
+    "node": "/rpi1",
+    "event_type": "face_detection",
+    "topic": "/door_sensor",
+    "timestamp": 1564809349
+  },
+  {
+    "_id": "5c17ccdb9dd2dc22576e6e6d",
+    "node": "/rpi1",
+    "event_type": "activity_detection",
+    "topic": "/kinect_camera_2",
+    "timestamp": 1753663293
+  },
+  {
+    "_id": "5c17ccdbdfd326f4a495395d",
+    "node": "/rpi_pepper",
+    "event_type": "person_detection",
+    "topic": "/kinect_camera_1",
+    "timestamp": 1798505449
+  },
+  {
+    "_id": "5c17ccdbf8a1c4b07c25dd6b",
+    "node": "/pepper",
+    "event_type": "activity_detection",
+    "topic": "/head_camera",
+    "timestamp": 1680109426
+  },
+  {
+    "_id": "5c17ccdbb4a2394a035642da",
+    "node": "/rpi_pepper",
+    "event_type": "person_detection",
+    "topic": "/bottom_camera",
+    "timestamp": 1713720515
+  },
+  {
+    "_id": "5c17ccdb7dd93e9308dd094d",
+    "node": "/rpi1",
+    "event_type": "activity_detection",
+    "topic": "/motion_sensor",
+    "timestamp": 1636924985
+  },
+  {
+    "_id": "5c17ccdb682e861e34af7421",
+    "node": "/kinect_rpi",
+    "event_type": "activity_detection",
+    "topic": "/door_sensor",
+    "timestamp": 1898388599
+  },
+  {
+    "_id": "5c17ccdb37cf8032f2393d1a",
+    "node": "/rpi_pepper",
+    "event_type": "activity_detection",
+    "topic": "/motion_sensor",
+    "timestamp": 1597994197
+  },
+  {
+    "_id": "5c17ccdb13c3b592042b8fbf",
+    "node": "/kinect_rpi",
+    "event_type": "face_detection",
+    "topic": "/kinect_camera_1",
+    "timestamp": 1604395307
+  },
+  {
+    "_id": "5c17ccdb5d8500b517bbfcff",
+    "node": "/pepper",
+    "event_type": "face_detection",
+    "topic": "/door_sensor",
+    "timestamp": 1578333565
+  },
+  {
+    "_id": "5c17ccdbf07aa7997affdf0b",
+    "node": "/pepper",
+    "event_type": "activity_detection",
+    "topic": "/door_sensor",
+    "timestamp": 1633848537
+  },
+  {
+    "_id": "5c17ccdb4e20230ae5e4d73d",
+    "node": "/rpi_pepper",
+    "event_type": "activity_detection",
+    "topic": "/kinect_camera_1",
+    "timestamp": 1680061171
+  },
+  {
+    "_id": "5c17ccdb029a9f9e687ce52b",
+    "node": "/rpi1",
+    "event_type": "person_detection",
+    "topic": "/head_camera",
+    "timestamp": 1590076685
+  },
+  {
+    "_id": "5c17ccdb540517055fe14f8f",
+    "node": "/pepper",
+    "event_type": "activity_detection",
+    "topic": "/motion_sensor",
+    "timestamp": 1823064815
+  },
+  {
+    "_id": "5c17ccdb9a08729742f41275",
+    "node": "/rpi1",
+    "event_type": "face_detection",
+    "topic": "/head_camera",
+    "timestamp": 1900185525
+  },
+  {
+    "_id": "5c17ccdbbb5570515d45e81c",
+    "node": "/rpi_pepper",
+    "event_type": "room_enter",
+    "topic": "/kinect_camera_1",
+    "timestamp": 1866166236
+  },
+  {
+    "_id": "5c17ccdb5752d7d4e58b78d3",
+    "node": "/pepper",
+    "event_type": "person_detection",
+    "topic": "/bottom_camera",
+    "timestamp": 1683003728
+  },
+  {
+    "_id": "5c17ccdb4e149e685a9428a9",
+    "node": "/rpi_pepper",
+    "event_type": "person_detection",
+    "topic": "/door_sensor",
+    "timestamp": 1807698793
+  },
+  {
+    "_id": "5c17ccdbcba13e4dfdd5f370",
+    "node": "/pepper",
+    "event_type": "face_detection",
+    "topic": "/kinect_camera_1",
+    "timestamp": 1692561602
+  },
+  {
+    "_id": "5c17ccdbbdc01083cbc21a38",
+    "node": "/kinect_rpi",
+    "event_type": "face_detection",
+    "topic": "/bottom_camera",
+    "timestamp": 1800506677
+  },
+  {
+    "_id": "5c17ccdbc30b972848b0ad82",
+    "node": "/rpi_pepper",
+    "event_type": "motion_detect",
+    "topic": "/bottom_camera",
+    "timestamp": 1745522716
+  },
+  {
+    "_id": "5c17ccdb9e67abc59520978b",
+    "node": "/pepper",
+    "event_type": "face_detection",
+    "topic": "/motion_sensor",
+    "timestamp": 1780265028
+  },
+  {
+    "_id": "5c17ccdbbb125aaf0d7a5030",
+    "node": "/pepper",
+    "event_type": "motion_detect",
+    "topic": "/bottom_camera",
+    "timestamp": 1723919033
+  },
+  {
+    "_id": "5c17ccdb72b59680fb9911f9",
+    "node": "/kinect_rpi",
+    "event_type": "motion_detect",
+    "topic": "/head_camera",
+    "timestamp": 1731122555
+  },
+  {
+    "_id": "5c17ccdb17a1b9fe4649dea8",
+    "node": "/pepper",
+    "event_type": "room_enter",
+    "topic": "/door_sensor",
+    "timestamp": 1812595881
+  },
+  {
+    "_id": "5c17ccdb93caf35c9d4eebfc",
+    "node": "/pepper",
+    "event_type": "room_enter",
+    "topic": "/bottom_camera",
+    "timestamp": 1876505274
+  },
+  {
+    "_id": "5c17ccdb76c1b892daccbe29",
+    "node": "/pepper",
+    "event_type": "face_detection",
+    "topic": "/bottom_camera",
+    "timestamp": 1575363013
+  },
+  {
+    "_id": "5c17ccdb85adbecb864ef283",
+    "node": "/kinect_rpi",
+    "event_type": "person_detection",
+    "topic": "/kinect_camera_1",
+    "timestamp": 1609586560
+  },
+  {
+    "_id": "5c17ccdbe8c7c62979cbde0f",
+    "node": "/kinect_rpi",
+    "event_type": "face_detection",
+    "topic": "/bottom_camera",
+    "timestamp": 1875007112
+  },
+  {
+    "_id": "5c17ccdbd4dca5442ccdf196",
+    "node": "/rpi1",
+    "event_type": "activity_detection",
+    "topic": "/door_sensor",
+    "timestamp": 1688275528
+  },
+  {
+    "_id": "5c17ccdbabe8894ab6f71903",
+    "node": "/rpi_pepper",
+    "event_type": "room_enter",
+    "topic": "/kinect_camera_2",
+    "timestamp": 1801057485
+  },
+  {
+    "_id": "5c17ccdb88c4b1371739ea56",
+    "node": "/rpi1",
+    "event_type": "person_detection",
+    "topic": "/kinect_camera_2",
+    "timestamp": 1741256398
+  },
+  {
+    "_id": "5c17ccdb33997c56e5cd1206",
+    "node": "/rpi1",
+    "event_type": "activity_detection",
+    "topic": "/motion_sensor",
+    "timestamp": 1805769083
+  },
+  {
+    "_id": "5c17ccdb1526572a83aad59e",
+    "node": "/rpi_pepper",
+    "event_type": "face_detection",
+    "topic": "/head_camera",
+    "timestamp": 1692797510
+  },
+  {
+    "_id": "5c17ccdb21fa6dd14d6c7354",
+    "node": "/rpi_pepper",
+    "event_type": "room_enter",
+    "topic": "/kinect_camera_2",
+    "timestamp": 1547111494
+  },
+  {
+    "_id": "5c17ccdbebef866d5aa720e4",
+    "node": "/pepper",
+    "event_type": "activity_detection",
+    "topic": "/kinect_camera_1",
+    "timestamp": 1816523906
+  },
+  {
+    "_id": "5c17ccdbd9c7ed9395a70835",
+    "node": "/kinect_rpi",
+    "event_type": "person_detection",
+    "topic": "/door_sensor",
+    "timestamp": 1708949916
+  },
+  {
+    "_id": "5c17ccdbf28bb06e6485e1e4",
+    "node": "/rpi1",
+    "event_type": "activity_detection",
+    "topic": "/kinect_camera_1",
+    "timestamp": 1745830666
+  },
+  {
+    "_id": "5c17ccdb0ba3dfd24f8a0120",
+    "node": "/kinect_rpi",
+    "event_type": "face_detection",
+    "topic": "/bottom_camera",
+    "timestamp": 1608566532
+  },
+  {
+    "_id": "5c17ccdbd1831a4a8102a6de",
+    "node": "/rpi_pepper",
+    "event_type": "face_detection",
+    "topic": "/head_camera",
+    "timestamp": 1639206794
+  },
+  {
+    "_id": "5c17ccdb1103648ea100a019",
+    "node": "/rpi1",
+    "event_type": "activity_detection",
+    "topic": "/head_camera",
+    "timestamp": 1897344596
+  },
+  {
+    "_id": "5c17ccdbfbbe5ac70b654062",
+    "node": "/rpi_pepper",
+    "event_type": "face_detection",
+    "topic": "/door_sensor",
+    "timestamp": 1841427824
+  },
+  {
+    "_id": "5c17ccdb8d5668953a87cab4",
+    "node": "/rpi1",
+    "event_type": "activity_detection",
+    "topic": "/head_camera",
+    "timestamp": 1864154864
+  },
+  {
+    "_id": "5c17ccdb6202d1722ca9af0c",
+    "node": "/kinect_rpi",
+    "event_type": "activity_detection",
+    "topic": "/door_sensor",
+    "timestamp": 1772807249
+  },
+  {
+    "_id": "5c17ccdb54f2b41d69ce6fbb",
+    "node": "/pepper",
+    "event_type": "activity_detection",
+    "topic": "/motion_sensor",
+    "timestamp": 1617334175
+  },
+  {
+    "_id": "5c17ccdb567fe4cef9c4cd74",
+    "node": "/pepper",
+    "event_type": "face_detection",
+    "topic": "/kinect_camera_2",
+    "timestamp": 1872229732
+  },
+  {
+    "_id": "5c17ccdb9480012fb74e916a",
+    "node": "/rpi1",
+    "event_type": "person_detection",
+    "topic": "/bottom_camera",
+    "timestamp": 1563797081
+  },
+  {
+    "_id": "5c17ccdba005ba73c6c969b6",
+    "node": "/kinect_rpi",
+    "event_type": "activity_detection",
+    "topic": "/head_camera",
+    "timestamp": 1793751051
+  },
+  {
+    "_id": "5c17ccdb9ecaa525a5f68dc1",
+    "node": "/rpi_pepper",
+    "event_type": "room_enter",
+    "topic": "/kinect_camera_2",
+    "timestamp": 1603600934
+  },
+  {
+    "_id": "5c17ccdbbd7d462f5abeebe9",
+    "node": "/kinect_rpi",
+    "event_type": "face_detection",
+    "topic": "/door_sensor",
+    "timestamp": 1674235912
+  },
+  {
+    "_id": "5c17ccdbe44bbeec39710acd",
+    "node": "/rpi_pepper",
+    "event_type": "face_detection",
+    "topic": "/head_camera",
+    "timestamp": 1769802977
+  },
+  {
+    "_id": "5c17ccdb85dfea19f91824dd",
+    "node": "/rpi1",
+    "event_type": "motion_detect",
+    "topic": "/bottom_camera",
+    "timestamp": 1708385668
+  },
+  {
+    "_id": "5c17ccdb64a8c849a9a1cad7",
+    "node": "/rpi1",
+    "event_type": "person_detection",
+    "topic": "/kinect_camera_1",
+    "timestamp": 1649054382
+  },
+  {
+    "_id": "5c17ccdbff7889037d4037b6",
+    "node": "/rpi_pepper",
+    "event_type": "motion_detect",
+    "topic": "/kinect_camera_2",
+    "timestamp": 1811138720
+  },
+  {
+    "_id": "5c17ccdbb19ddb6d2a779d79",
+    "node": "/kinect_rpi",
+    "event_type": "activity_detection",
+    "topic": "/bottom_camera",
+    "timestamp": 1639961497
+  },
+  {
+    "_id": "5c17ccdb1fcee474ec941144",
+    "node": "/kinect_rpi",
+    "event_type": "person_detection",
+    "topic": "/bottom_camera",
+    "timestamp": 1826616574
+  },
+  {
+    "_id": "5c17ccdb699c5656a22873d5",
+    "node": "/kinect_rpi",
+    "event_type": "motion_detect",
+    "topic": "/kinect_camera_2",
+    "timestamp": 1786338450
+  },
+  {
+    "_id": "5c17ccdbd02fb4fc2913dd86",
+    "node": "/kinect_rpi",
+    "event_type": "motion_detect",
+    "topic": "/door_sensor",
+    "timestamp": 1874677151
+  },
+  {
+    "_id": "5c17ccdb5754b559daaf785d",
+    "node": "/rpi1",
+    "event_type": "motion_detect",
+    "topic": "/head_camera",
+    "timestamp": 1751800709
+  },
+  {
+    "_id": "5c17ccdbff2677f9d8e3fa7a",
+    "node": "/kinect_rpi",
+    "event_type": "room_enter",
+    "topic": "/bottom_camera",
+    "timestamp": 1652080540
+  },
+  {
+    "_id": "5c17ccdbc384c70351b07c58",
+    "node": "/kinect_rpi",
+    "event_type": "person_detection",
+    "topic": "/head_camera",
+    "timestamp": 1862724381
+  },
+  {
+    "_id": "5c17ccdb33567571deb74f56",
+    "node": "/rpi_pepper",
+    "event_type": "activity_detection",
+    "topic": "/kinect_camera_1",
+    "timestamp": 1712320374
+  },
+  {
+    "_id": "5c17ccdb6722563ed92d7429",
+    "node": "/rpi1",
+    "event_type": "activity_detection",
+    "topic": "/door_sensor",
+    "timestamp": 1737868067
+  },
+  {
+    "_id": "5c17ccdb7d873b6fbee17f0c",
+    "node": "/pepper",
+    "event_type": "motion_detect",
+    "topic": "/kinect_camera_1",
+    "timestamp": 1659143798
+  },
+  {
+    "_id": "5c17ccdb50ea12be552db29f",
+    "node": "/rpi1",
+    "event_type": "room_enter",
+    "topic": "/head_camera",
+    "timestamp": 1806404511
+  },
+  {
+    "_id": "5c17ccdb2b55369e5e0e126e",
+    "node": "/rpi1",
+    "event_type": "room_enter",
+    "topic": "/head_camera",
+    "timestamp": 1885786287
+  },
+  {
+    "_id": "5c17ccdbcb76b7ff5f4e8fd5",
+    "node": "/rpi1",
+    "event_type": "room_enter",
+    "topic": "/motion_sensor",
+    "timestamp": 1569043603
+  },
+  {
+    "_id": "5c17ccdb4c44144e35929914",
+    "node": "/kinect_rpi",
+    "event_type": "person_detection",
+    "topic": "/kinect_camera_1",
+    "timestamp": 1653059535
+  },
+  {
+    "_id": "5c17ccdb6ddbaee8dfe86cc5",
+    "node": "/pepper",
+    "event_type": "room_enter",
+    "topic": "/kinect_camera_2",
+    "timestamp": 1554875918
+  },
+  {
+    "_id": "5c17ccdb97c6c7d79085216c",
+    "node": "/kinect_rpi",
+    "event_type": "person_detection",
+    "topic": "/kinect_camera_1",
+    "timestamp": 1612751590
+  },
+  {
+    "_id": "5c17ccdb6a27f911cacd0e27",
+    "node": "/kinect_rpi",
+    "event_type": "motion_detect",
+    "topic": "/head_camera",
+    "timestamp": 1628230341
+  },
+  {
+    "_id": "5c17ccdb2e2f5815dcb0a30c",
+    "node": "/kinect_rpi",
+    "event_type": "motion_detect",
+    "topic": "/door_sensor",
+    "timestamp": 1715249300
+  }
+]

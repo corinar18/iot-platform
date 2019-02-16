@@ -1,0 +1,52 @@
+<h1>Sensors collection</h1>
+<h3>
+  Calculate the average temperature collected by a node
+</h3>
+<br>
+<mat-form-field>
+  <mat-select [(ngModel)]="selectedNode">
+    <mat-option *ngFor="let node of nodes" [value]="node">
+      {{node}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+<button mat-raised *ngIf="selectedNode!==undefined"
+        (click)="searchAverageTemperature(selectedNode)">
+        Calculate
+</button>
+<div *ngIf="avgTemperature!==undefined">The average temperature is {{avgTemperature}} Celsius degrees.</div>
+
+<br>
+<h3>
+  Calculate the average temperature for all nodes
+</h3>
+<button mat-raised
+        (click)="searchTotalAverageTemperature()">
+        Calculate
+</button>
+<div *ngFor="let obj of totalAvgTemperatures">
+  The node {{obj.id}} has a total of {{obj.sensorsCount}} sensors, which recorded an average temperature of {{obj.avgTemp}}.
+</div>
+
+<br>
+<h3>
+  See all the temperatures recorded over a specific year, also shown on a chart.
+</h3>
+<p>Enter year:</p>
+<mat-form-field>
+  <input matInput [(ngModel)]="year">
+</mat-form-field>
+<button mat-raised *ngIf="year!==undefined"
+        (click)="searchTemperaturesPerYear(year)">
+        Show results
+</button>
+<div>
+Temperatures per year {{year}} are:
+</div>
+<div *ngFor="let tempInfo of temperaturesPerYear">
+  Date (Unix time): {{tempInfo[0]}}, Temperature: {{tempInfo[1]}}
+</div>
+
+<div #chartTarget>
+  chart target
+</div>
