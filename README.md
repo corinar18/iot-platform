@@ -13,3 +13,5 @@ Running the UI:
 * `cd frontend/iot-platform`
 * `npm install`
 * `ng serve`
+
+The application will open on http://localhost:4200/
