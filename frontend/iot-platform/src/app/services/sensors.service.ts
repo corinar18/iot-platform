@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 
 @Injectable()
 export class SensorsService {
-  baseUrl = 'http://localhost:5002';
+  baseUrl = 'http://localhost:3000/sensors';
 
   constructor(private httpClient: HttpClient) {
   }

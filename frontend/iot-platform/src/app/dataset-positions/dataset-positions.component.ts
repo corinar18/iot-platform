@@ -38,9 +38,9 @@ export class DatasetPositionsComponent implements OnInit {
 
   searchLastPosition(selectedLabel: string) {
     this.datasetService.getLastKnownPosition(selectedLabel).subscribe((res: any) => {
-      this.coordinate = new Coordinate(parseInt(res[0]["coordinate"]["x"]),
-                      parseInt(res[0]["coordinate"]["y"]),
-                      parseInt(res[0]["coordinate"]["z"]));
+      this.coordinate = new Coordinate(parseInt(res[0]['coordinate']['x'], 10),
+                      parseInt(res[0]['coordinate']['y'], 10),
+                      parseInt(res[0]['coordinate']['z'], 10));
     });
   }
 
@@ -48,14 +48,14 @@ export class DatasetPositionsComponent implements OnInit {
     this.nearbyObjects = new Array<NearbyObject>();
     this.datasetService.getNearbyObjects(x1, y1, x2, y2).subscribe((res: any) => {
       res.forEach( (obj) => {
-        let geoLocation = new Coordinate(obj["geoLocation"][0],
-                                        obj["geoLocation"][1],
+        const geoLocation = new Coordinate(obj['geoLocation'][0],
+                                        obj['geoLocation'][1],
                                         0);
-        let label = obj["label"];
-        let type = obj["type"];
-        let nearbyObj = new NearbyObject(geoLocation, label, type);
+        const label = obj['label'];
+        const type = obj['type'];
+        const nearbyObj = new NearbyObject(geoLocation, label, type);
         this.nearbyObjects.push(nearbyObj);
-      })
+      });
     });
   }
 }
