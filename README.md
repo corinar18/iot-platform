@@ -7,7 +7,8 @@ Prerequisites:
 * npm v6.9.0
 
 The first step to running the app is to start the mongo service in a terminal:
-* `mongod --config /usr/local/etc/mongod.conf`
+* `mongod --config /usr/local/etc/mongod.conf`.
+
 In another terminal, start the mongo shell with the command: `mongo`.
 
 To run the backend server:
