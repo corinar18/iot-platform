@@ -120,11 +120,11 @@ function checkCollectionExists(collections, collection) {
   }
 }
 
-function mapf() {
+function mapFunction() {
   emit(this.node, {count: 1, temp: this.temperature});
 }
 
-function reducef(node, temperatures) {
+function reduceFunction(node, temperatures) {
   var value = {
     count: 0,
     temp: 0
@@ -136,7 +136,7 @@ function reducef(node, temperatures) {
   return value;
 }
 
-function finalizef(node, value) {
+function finalizeFunction(node, value) {
   if (value.count > 0) {
     value.average = (value.temp / value.count).toFixed(2);
   }
@@ -145,13 +145,13 @@ function finalizef(node, value) {
 
 function createAverageTemperaturesCollection() {
   db.collection(SENSORS_COLLECTION)
-      .mapReduce(mapf,
-          reducef,
+      .mapReduce(mapFunction,
+          reduceFunction,
           {
             out: {
               replace: AVERAGE_TEMPERATURES_COLLECTION
             },
-            finalize: finalizef
+            finalize: finalizeFunction
           });
   console.log("Documents were successfully added to collection " + AVERAGE_TEMPERATURES_COLLECTION);
 }

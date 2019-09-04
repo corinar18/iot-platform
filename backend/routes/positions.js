@@ -37,7 +37,7 @@ router.get('/labels', function (req, res) {
 
 router.get('/nearby-objects/:x1/:y1/:x2/:y2', function(req, res) {
     const db = req.app.locals.db;
-    var query = {
+    const query = {
         "geoLocation": {
             "$within": {
                 "$box": [[parseInt(req.params.x1), parseInt(req.params.y1)],
@@ -52,6 +52,23 @@ router.get('/nearby-objects/:x1/:y1/:x2/:y2', function(req, res) {
         }
         res.status(200).send(result);
     })
+});
+
+router.get('/coordinates/:label', function (req, res) {
+   const db = req.app.locals.db;
+   const query = {"label": req.params.label};
+
+   db.collection(COORDINATES_COLLECTION).find(query).toArray(function (err, result) {
+       if (err) {
+           console.log(err);
+           res.status(500).send(null);
+       }
+
+       const coordinatesList = result.map(function (item) {
+           return item.geoLocation;
+       });
+       res.status(200).send(coordinatesList);
+   })
 });
 
 module.exports = router;

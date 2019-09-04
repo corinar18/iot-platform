@@ -23,4 +23,8 @@ export class DatasetPositionService {
       + x2.toString() + '/'
       + y2.toString());
   }
+
+  getCoordinates(label: string) {
+    return this.httpClient.get(this.baseUrl + '/coordinates/' + label);
+  }
 }

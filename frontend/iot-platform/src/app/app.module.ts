@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { DatasetPositionsComponent } from './dataset-positions/dataset-positions.component';
 import { SensorsComponent } from './sensors/sensors.component';
+import { FacesComponent } from './faces/faces.component';
 
 import { MatButtonModule } from '@angular/material';
 import { MatMenuModule } from '@angular/material';
@@ -20,6 +21,7 @@ import { ChartModule } from 'angular2-highcharts';
 import {HighchartsStatic} from 'angular2-highcharts/dist/HighchartsService';
 import * as Highcharts from 'highcharts';
 import { chart } from 'highcharts';
+
 export function highchartsFactory() {
   var hc = require('highcharts');
   var hcm = require('highcharts/highcharts-more');
@@ -35,7 +37,8 @@ export function highchartsFactory() {
     AppComponent,
     HomeComponent,
     DatasetPositionsComponent,
-    SensorsComponent
+    SensorsComponent,
+    FacesComponent
   ],
   imports: [
     BrowserModule,
