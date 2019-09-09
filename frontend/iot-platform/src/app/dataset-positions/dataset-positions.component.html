@@ -10,7 +10,7 @@
     </mat-option>
   </mat-select>
 </mat-form-field>
-<button mat-raised *ngIf="selectedLabel!==undefined"
+<button mat-button *ngIf="selectedLabel!==undefined"
         (click)="searchLastPosition(selectedLabel)">
         Search
 </button>
@@ -41,7 +41,7 @@
     <input matInput [(ngModel)]="y2">
   </mat-form-field>
 </div>
-<button mat-raised *ngIf="x1!==undefined && x2!==undefined && y1!==undefined && y2!==undefined"
+<button mat-button *ngIf="x1!==undefined && x2!==undefined && y1!==undefined && y2!==undefined"
         (click)="searchNearbyObjects(x1, y1, x2, y2)">
         Search
 </button>
@@ -53,6 +53,7 @@
   Get all appearances of a label
 </h3>
 <br>
+
 <mat-form-field>
   <mat-select [(ngModel)]="selectedLabel">
     <mat-option *ngFor="let label of labels" [value]="label">
@@ -60,11 +61,26 @@
     </mat-option>
   </mat-select>
 </mat-form-field>
-<button mat-raised *ngIf="selectedLabel!==undefined"
+
+<p>Insert number of clusters</p>
+<mat-form-field>
+  <input matInput [(ngModel)]="k">
+</mat-form-field>
+
+<button mat-button *ngIf="selectedLabel!==undefined"
         (click)="searchLabelAppearances(selectedLabel)">
   Search
 </button>
+
 <div *ngFor="let coordinatePair of coordinates">
   X: {{coordinatePair[0]}}, Y: {{coordinatePair[1]}}
 </div>
-<canvas id="canvas" height="400" width="400"></canvas>
+<!--<div>-->
+<!--  <button mat-button-->
+<!--          (click)="resetCanvas()">-->
+<!--    Reset canvas-->
+<!--  </button>-->
+<!--</div>-->
+<div>
+  <canvas id="canvas" height="400" width="400"></canvas>
+</div>

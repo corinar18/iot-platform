@@ -35,6 +35,7 @@ export class DatasetPositionsComponent implements OnInit {
   assignments: number[];
   drawDelay: number;
   ctx: any;
+  k: number;
 
 
   constructor(private http: HttpClient, private datasetService: DatasetPositionService) {
@@ -48,6 +49,12 @@ export class DatasetPositionsComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+  resetCanvas() {
+    let canvas = document.getElementById('canvas') as HTMLCanvasElement;
+    this.ctx = canvas.getContext('2d');
+    this.ctx.clearRect(0, 0, 400, 400);
   }
 
   searchLastPosition(selectedLabel: string) {
@@ -118,6 +125,8 @@ export class DatasetPositionsComponent implements OnInit {
     if (!k) {
       k = 3;
     }
+
+    this.means = [];
 
     while (k--) {
       let mean = [];
@@ -216,7 +225,7 @@ export class DatasetPositionsComponent implements OnInit {
 
     this.dataExtremes = this.getDataExtremes();
     this.dataRange = this.getDataRanges(this.dataExtremes);
-    this.means = this.initMeans(2);
+    this.means = this.initMeans(this.k);
 
     this.makeAssignments();
     this.draw();

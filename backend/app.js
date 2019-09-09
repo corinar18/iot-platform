@@ -6,6 +6,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
 var fs = require('fs');
+var Grid = require('gridfs-stream');
 
 var app = express();
 
@@ -17,6 +18,7 @@ var indexRouter = require('./routes/index');
 var eventsRouter = require('./routes/events');
 var positionsRouter = require('./routes/positions');
 var sensorsRouter = require('./routes/sensors');
+var facesRouter = require('./routes/faces');
 
 var mongoClient = require('mongodb').MongoClient;
 let url = "mongodb://localhost:27017/iot-platform";
@@ -52,6 +54,7 @@ app.use('/', indexRouter);
 app.use('/events', eventsRouter);
 app.use('/positions', positionsRouter);
 app.use('/sensors', sensorsRouter);
+app.use('/faces', facesRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -75,6 +78,7 @@ mongoClient.connect(url, {useNewUrlParser: true}, function (err, client) {
     throw err;
   } else {
     db = client.db("iot-platform");
+    var gfs = Grid(db, mongoClient);
 
     db.collections(function (err, cols) {
       if (err) {

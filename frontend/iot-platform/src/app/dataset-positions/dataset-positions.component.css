@@ -1,5 +1,6 @@
 canvas {
-  display: block;
+  /*display: block;*/
   margin: 10px auto;
+  left: 10px;
   border: 1px solid black;
 }
